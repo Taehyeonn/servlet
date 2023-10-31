@@ -26,7 +26,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
-	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat' //톰캣 충돌로 인한 주석처리
+//	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat' //인텔리제이 충돌로 인한 주석처리
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
